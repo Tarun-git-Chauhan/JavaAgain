@@ -2,7 +2,7 @@ package week_01.book.chapter01;
 
 import java.util.Scanner;
 
-//11 March,2026
+//11 March 2026
 // the program to convert to the binary from the decimal
 public class Binary {
     public static void main(String[] args) {
