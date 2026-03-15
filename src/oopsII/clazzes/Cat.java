@@ -1,7 +1,7 @@
-package oopsII;
-
+package oopsII.clazzes;
+//import oopsII.interfaces.*;
 public class Cat extends Animal {
-    Cat(String name){
+    public Cat(String name){
         super(name);
 //        type = Cat.class.getSimpleName();
     }
@@ -17,5 +17,4 @@ public class Cat extends Animal {
     public void eat(){
         System.out.println("I am eating a cat food");
     }
-
 }

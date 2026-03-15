@@ -1,4 +1,5 @@
-package oopsII;
+package oopsII.clazzes;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -14,6 +15,8 @@ public class Main {
         labrador.aboutMe();
         labrador.eat();
         labrador.sound();
+        labrador.flyable(false);
+
 //        labrador.eat();
     }
     public static void testCat(){
@@ -21,6 +24,8 @@ public class Main {
         pussy.aboutMe();
         pussy.eat();
         pussy.sound();
+        // we will use flyable method
+        pussy.flyable(false);
     }
 
 }
