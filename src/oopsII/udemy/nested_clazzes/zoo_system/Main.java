@@ -20,12 +20,19 @@ public class Main {
         // making the sound
         animal1.makeSound();
         animal2.makeSound();
-        // showing the localclass
+        // showing the local class
         ZooSystem zooSystem = new ZooSystem();
         zooSystem.startZooTour();
 
         // working on the anonymous
-        // i have to learn about the anonymous
+        // i have to learn about the anonymous class
+        ZooSystem.Show dolphineShow = new ZooSystem.Show() {
+            @Override
+            public void perform() {
+                System.out.println("The dolphin show is starting!");
+            }
+        };
+        dolphineShow.perform();
 
     }
 }

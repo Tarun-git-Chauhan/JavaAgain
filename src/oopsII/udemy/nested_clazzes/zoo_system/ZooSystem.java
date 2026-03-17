@@ -41,7 +41,7 @@ public class ZooSystem {
         // creating a local class
         class TourGuide{
             void giveIntroduction(){
-                System.out.println("Welcom to Tarun's Zoo! Enjoy the tour.");
+                System.out.println("Welcome to Tarun's Zoo! Enjoy the tour.");
             }
         }
         TourGuide tourGuide = new TourGuide();
@@ -53,4 +53,5 @@ public class ZooSystem {
         void perform();
 
     }
+
 }
