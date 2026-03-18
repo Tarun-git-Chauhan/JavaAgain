@@ -5,8 +5,8 @@ class Pair<T,U> {
     // two variables
     // constructor
     // getters
-    private T value;
-    private U valueTwo;
+    private T value; // names
+    private U valueTwo; // age
     public Pair(T value, U valueTwo) {
         this.value = value;
         this.valueTwo = valueTwo;
